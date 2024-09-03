@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Create a ReactJS project to develop a 24-hour interactive timeline component with the following
+features:
+● Time Markers: Display time markers for each hour from 0:00 to 23:00.
+● Interactive Events: Allow users to add, move, and delete events on the timeline.
+● Event Display: Each event should display a label on mouse hover with the event name
+and the start and end times.
+● Responsive Design: Ensure the timeline is responsive and adjusts to different screen
+sizes.
+● Zoom Functionality: Implement zoom functionality to allow users to place events at
+exact times as needed.
+Requirements:
+● State Management: Use React state and context API for managing the state of the
+timeline and events.
+● Event Handling: Implement event handling for adding, moving, and deleting events.
+Steps:
+Project Setup:
+● Initialize a new ReactJS project using Create React App.
+● Install necessary dependencies.
+Component Structure:
+● Create a Timeline component to display the 24-hour timeline with time markers.
+● Create an Event component to display individual events on the timeline.
+● Create a ZoomControl component to handle zoom functionality.
+State Management:
+● Use React's useState and useContext for state management.
+● Create a context for managing the list of events and the current zoom level.
+Time Markers:
+● Display time markers for each hour from 0:00 to 23:00 within the Timeline component.
+Implement functions to add, move, and delete events.
+● Use mouse events to allow users to drag and drop events to different time slots.
+Event Display:
+● Show event labels on mouse hover with the event name, start time, and end time.
+Responsive Design:
+● Use CSS and media queries to ensure the timeline is responsive and adjusts to different
+screen sizes.
+Zoom Functionality:
+● Implement zoom controls to allow users to zoom in and out of the timeline for more
+precise event placement.
+Here is example of task :
